@@ -18,5 +18,9 @@ public class Automovel {
     public void Desligar(){
         System.out.println("Desligando...");
     }
+
+    public void Exibir(){
+        System.out.println("Marca: " + marca + "\nAno: "+ anoDeFabricacao + "\nModelo: " + modelo);
+    }
 }
 
