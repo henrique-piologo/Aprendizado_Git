@@ -1,4 +1,4 @@
-import entiny.Automovel;
+import entiny.*;
 
 public class TuturialGit {
     public static void main(String[] args) {
@@ -7,5 +7,10 @@ public class TuturialGit {
         automovel.Ligar();
         automovel.Desligar();
         automovel.Exibir();
+
+        Moto moto = new Moto ("Yamaha", 2006, "vrumm", "Combustão", "V8", true);
+
+        moto.Exibir();
+        moto.abrirValvulaCombustivel();
     }
 }
