@@ -1,4 +1,4 @@
-import entiny.Automovel;
+import entiny.*;
 
 public class TuturialGit {
     public static void main(String[] args) {
@@ -7,5 +7,11 @@ public class TuturialGit {
         automovel.Ligar();
         automovel.Desligar();
         automovel.Exibir();
+
+        Carro carro = new Carro ( 4, "V8", false, "Nissan", 2002, "GTR" );
+
+        carro.Exibir();
+        carro.TrancarPorta();
+        carro.LigarAlarme();
     }
 }
